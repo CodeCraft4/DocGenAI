@@ -48,7 +48,7 @@ const FilterSearch = () => {
           placeholder="SEARCH INVOICE BY NAME"
 
         />
-        <div className="flex xs:m-auto xs:justify-center xs:text-center xs:mt-3 md:gap-2 gap-2 sm:gap-8 items-center">
+        <div className="flex md:mt-0 xs:m-auto xs:justify-center xs:text-center xs:mt-3 md:gap-2 gap-2 sm:gap-8 items-center">
           <button className="p-3 bg-sky-500 text-center px-10 rounded-3xl text-sm">
             SEARCH
           </button>

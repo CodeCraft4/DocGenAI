@@ -45,12 +45,12 @@ const Pagination = () => {
         >
           5
         </a>
-        <span className="relative inline-flex items-center rounded-xl px-4 py-2 text-white  bg-gray-800 hover:bg-gray-50 hover:text-black focus:z-20 focus:outline-offset-0">
+        <span className="relative inline-flex  items-center rounded-xl px-4 py-2 text-white  bg-gray-800 hover:bg-gray-50 hover:text-black focus:z-20 focus:outline-offset-0">
           ...
         </span>
         <a
           href="#"
-          className="relative inline-flex xs:hidden items-center rounded-xl px-4 py-2 text-white  bg-gray-800 hover:bg-gray-50 hover:text-black focus:z-20 focus:outline-offset-0"
+          className="relative inline-flex  items-center rounded-xl px-4 py-2 text-white  bg-gray-800 hover:bg-gray-50 hover:text-black focus:z-20 focus:outline-offset-0"
         >
           100
         </a>
