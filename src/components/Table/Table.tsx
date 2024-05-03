@@ -10,7 +10,7 @@ const TableData = () => {
       {TABLE_DATA.map((data, i) => (
         <div
           key={i}
-          className="flex flex-wrap  gap-4 my-5 border-2 border-gray-400 md:p-5 xs:p-2 rounded-3xl"
+          className="flex flex-wrap justify-between gap-4 my-5 border-2 border-gray-400 p-5 rounded-3xl"
         >
           <div>
             <p className="font-light">INVOICE</p>
