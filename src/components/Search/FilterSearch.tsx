@@ -2,7 +2,7 @@ import React from "react";
 
 const FilterSearch = () => {
   return (
-    <div className="md:mx-10 mx-4 sm:mx-4">
+    <div className="md:mx-10 mx-4 sm:mx-4 xs:mx-0">
       <p>FILTER INVOICES</p>
       <ul className="md:flex xs:flex flex-wrap xs:gap-5 sm:block justify-evenly md:w-8/12 sm:full p-4">
         <li className="flex gap-2">
@@ -44,16 +44,29 @@ const FilterSearch = () => {
       </ul>
       <div className="my-5 md:flex sm:block gap-4">
         <input
-          className="border-none bg-gray-900 h-15 px-5 pr-16 rounded-3xl text-sm focus:outline-none w-full md:w-9/12 sm:w-9/12 xs:full p-3 text-center"
-          value={"SEARCH INVOICE BY NAME"}
+          className="border-none bg-gray-900 h-15 rounded-3xl text-sm focus:outline-none w-full md:w-9/12 sm:w-9/12 xs:full p-3 text-center"
           placeholder="SEARCH INVOICE BY NAME"
         />
-        <div className="flex xs:mt-3 md:gap-2 gap-2 sm:gap-8 items-center">
+        <div className="flex xs:m-auto xs:justify-center xs:text-center xs:mt-3 md:gap-2 gap-2 sm:gap-8 items-center">
           <button className="p-3 bg-sky-500 text-center px-10 rounded-3xl text-sm">
             SEARCH
           </button>
-          <button className="p-3 bg-sky-500 px-10 rounded-3xl text-start text-sm">
-            HIDEFILTER
+          <button className="flex items-center gap-2 p-3 bg-sky-500 text-center px-6 rounded-3xl text-sm">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+            FILTERS
           </button>
         </div>
       </div>
