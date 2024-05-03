@@ -9,7 +9,7 @@ const FilterSearch = () => {
           <input
             type="checkbox"
             className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-sky-400 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-blue-500 checked:bg-blue-500 checked:before:bg-blue-500 hover:before:opacity-10"
-            checked
+            defaultChecked
           />
           ID
         </li>
@@ -46,6 +46,7 @@ const FilterSearch = () => {
         <input
           className="border-none bg-gray-900 h-15 rounded-3xl text-sm focus:outline-none w-full md:w-9/12 sm:w-9/12 xs:full p-3 text-center"
           placeholder="SEARCH INVOICE BY NAME"
+
         />
         <div className="flex xs:m-auto xs:justify-center xs:text-center xs:mt-3 md:gap-2 gap-2 sm:gap-8 items-center">
           <button className="p-3 bg-sky-500 text-center px-10 rounded-3xl text-sm">
